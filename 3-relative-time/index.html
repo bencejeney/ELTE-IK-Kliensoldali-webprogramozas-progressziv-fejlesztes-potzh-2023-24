@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Relative time</h1>
+    <section>
+      <h2>A blog post</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam eos
+        officiis id, vel saepe eius explicabo molestias ea magni doloremque ab
+        commodi nihil numquam odio blanditiis dolor officia, vitae voluptatibus.
+        Illo accusantium quibusdam ratione, est veniam quas corrupti labore
+        quasi ex rem dolorem asperiores qui iure aut ipsum provident facilis
+        sit, quo doloremque sint. Eveniet dolorem consequatur tenetur qui fuga.
+        Ea corporis iure cumque dignissimos! Unde quae quibusdam architecto
+        labore maiores vel, est tempora dolore vitae ullam omnis aliquid
+        officiis alias dolor corporis. Exercitationem architecto incidunt alias
+        possimus? Cupiditate, neque?
+        <br />
+        Written on
+        <time
+          datetime="2024-05-20T14:34:00.000Z"
+          format="absolute"
+          is="relative-time"
+        >
+          20 May 2024
+        </time>
+      </p>
+      <h3>Comments</h3>
+      <ul>
+        <li>
+          A comment (written on
+          <time
+            datetime="2024-05-20T20:00:00.000Z"
+            format="relative"
+            is="relative-time"
+          >
+            20 May 2024 </time
+          >)
+        </li>
+        <li>
+          Another comment (written on
+          <time
+            datetime="2024-05-22T10:00:00.000Z"
+            format="relative"
+            is="relative-time"
+          >
+            22 May 2024 </time
+          >)
+        </li>
+        <li lang="hu">
+          Another comment (written on
+          <time
+            datetime="2024-05-23T08:11:00.000Z"
+            format="relative"
+            is="relative-time"
+          >
+            23 May 2024 </time
+          >)
+        </li>
+      </ul>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: xx-large;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid bisque;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: beige;
+  & video {
+    width: 80%;
+  }
+}
+
+.video-container.fixed {
+  border: 1px solid gray;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 0;
+  overflow: none;
+}
+.video-container.fixed video {
+  width: 300px;
+}
+.video-container.fixed::after {
+  content: "x";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+}

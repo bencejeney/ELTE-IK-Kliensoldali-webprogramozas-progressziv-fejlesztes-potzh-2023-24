@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: large;
+}
+body.error ::selection {
+  background-color: #ff000050;
+}
+.save-selection {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
